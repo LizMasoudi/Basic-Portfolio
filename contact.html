@@ -2,53 +2,56 @@
 <html>
 <head>
 	<title>Portfolio Contact</title>
-	<link rel="stylesheet" type="text/css" href="#">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
 	<header>
-		<div class="name">
-			<h1>Liz Masoudi</h1>
-		</div>
+		<div class="container">
+			<div id="name">
+				<h1>Liz Masoudi</h1>
+			</div>
 
-		<div class="navigation">
-			<a class="button" href="index.html">About</a>
-			<a class="button" href="contact.html">Contact</a>
-			<a class="button" href="portfolio.html">Portfolio</a>
+			<nav>
+				<a class="button" href="index.html">About</a>
+				<a class="button" href="contact.html">Contact</a>
+				<a class="button" href="portfolio.html">Portfolio</a>
+			</nav>
 		</div>
 	</header>	
 
-	<section>
-		<h2>Contact Me</h2>
+	<div class="container">
+		<section class="main-content">
+			<h2>Contact Me</h2>
 
-		<hr>
+			<hr>
 
-		<form>
-			<h4>Name</h4>
-			<input type="text" name="fullname">
-			<h4>Email</h4>
-			<input type="text" name="email">
-			<h4>Message</h4>
-			<input type="text" name="message">
-			<br>
-			<input type="submit" name="submit">
-		</form>
+			<form>
+				<h4>Name</h4>
+				<input type="text" name="fullname">
+				<h4>Email</h4>
+				<input type="text" name="email">
+				<h4>Message</h4>
+				<input type="text" name="message">
+				<br>
+				<input type="submit" name="submit">
+			</form>
 
-	</section>
+		</section>
 
-	<nav>
-		<h3>Connect With Me</h3>
-		<a href="https://www.linkedin.com/in/liz-masoudi-b7183485">
-			<img src="assets/images/if_square-linkedin_317725.png" alt="LinkedIn" height="5%" width="5%">
-		</a>
-		<a href="https://github.com/LizMasoudi">
-			<img src="assets/images/if_github_317712.png" alt="GitHub" height="5%" width="5%">
-		</a>
-		<a href="https://stackoverflow.com/users/8134334/grrlizlybear">
-			<img src="assets/images/if_stackoverflow_1220346.png" alt="StackOverflow" height="5%" width="5%">
-		</a>
-		
-	</nav>
+		<section id="connect">
+			<h3>Connect With Me</h3>
+			<a href="https://www.linkedin.com/in/liz-masoudi-b7183485">
+				<img src="assets/images/if_square-linkedin_317725.png" alt="LinkedIn" height="40px" width="40px">
+			</a>
+			<a href="https://github.com/LizMasoudi">
+				<img src="assets/images/if_github_317712.png" alt="GitHub" height="40px" width="40px">
+			</a>
+			<a href="https://stackoverflow.com/users/8134334/grrlizlybear">
+				<img src="assets/images/if_stackoverflow_1220346.png" alt="StackOverflow" height="40px" width="40px">
+			</a>
+		</section>
+	</div>
 
 	<footer>
 		&copy; 2017 Liz Masoudi
