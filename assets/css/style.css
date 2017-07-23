@@ -52,7 +52,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #666666;
+    color: #9F9F9D;
     display: block;
     width: 100px;
     border-bottom: none;
@@ -61,7 +61,7 @@ nav a {
 }
 
 form h4 {
-	color: #777777;
+	color: #9F9F9D;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	font-style:none;
 	font-weight:200;
@@ -74,13 +74,13 @@ form input[type=text]{
     border: 1px solid #dddddd;
     color: #666666;
     height: 25px;
+    margin:0;
 }
 
 textarea {
     position: relative;
     width: 95%;
     border: 1px solid #dddddd;
-    padding: 10px;
     resize: none;
     color: #666666;
     font-size: 14px;
@@ -188,7 +188,7 @@ hr {
 	text-align: center;
 
 	/*border*/
-	border-color: #cccccc;
+	border-color: #dddddd;
 	border-style: solid;
 	border-width:thin;
 
